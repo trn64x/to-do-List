@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#main{
+    height:30vh;
+    width:40vw;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background:rgba(0,0,0,.1);
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction:column;
+    text-align:center;
+}
+#head{
+    height:15%;
+    margin:2.5%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(10, 24, 72);
+    font-size:25px;
+}
+#add{
+    height:15%;
+    margin:2.5%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(10, 24, 72);
+    font-size:25px;
+}
+#notes{
+width:100%;
+min-height:0;
+display:flex;
+align-items:center;
+justify-content: flex-start;
+text-align:center;
+flex-direction:column;
+}
+.note{
+    min-height:100px;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align:start;
+    
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin-bottom:1%;
+}
+.note-text{
+    user-select:none;
+    width:80%;
+    height:100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(10, 24, 72);
+    font-size:20px;
+    display:flex;
+    text-align:start;
+    flex-wrap:wrap;
+    word-break: break-word;
+overflow-wrap: break-word;
+    flex-direction:row;
+}
+
+.note-delete{
+width:44px;
+height:44px;
+
+}
+.line{
+    text-decoration:line-through;
+    font-weight:300;
+}
+.none{
+    font-weight:500;
+    text-decoration:none;
+}
+.Check{
+    border-radius:50%;
+
+    width:20px;
+    height:20px;
+}
+img{
+    width:100%;
+    height:auto;
+    object-fit: contain;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
